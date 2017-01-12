@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from '../Link/LinkComponent';
+import s from './Footer.css';
 
 function Footer() {
   return (
@@ -7,7 +8,9 @@ function Footer() {
       <div style={{ width: '80%', margin: 'auto' }}>
         <div className="mdl-mega-footer__middle-section">
           <div className="mdl-mega-footer__drop-down-section">
-            <h1 className="mdl-mega-footer__heading">Artwork Tattoo</h1>
+            <Link className={`mdl-layout-title ${s.footer_logo}`} to="/">
+              <img src="small-logo.png" alt="Artwork Tattoo" />
+            </Link>
             <ul className="mdl-mega-footer__link-list">
               <li><Link to="/">Studio</Link></li>
               <li><Link to="/">Galeria</Link></li>
