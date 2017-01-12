@@ -4,9 +4,17 @@
   margin: auto;
 }
 
-.title {
+.logo img{
+    width:300px;
+}
+
+.logo {
   color: #fff;
   text-decoration: none;
+}
+
+.header {
+  background-color:#444;
 }
 
 @media screen and (max-width: 1024px) {
@@ -25,6 +33,12 @@
 
   .row {
     width:100%;
+    padding: 10px 40px 10px 20px;
+  }
+
+  .logo {
+    width:150px;
+    overflow:hidden;
   }
 
 }

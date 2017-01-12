@@ -17,8 +17,8 @@ class Header extends React.Component {
     return (
       <header className={`mdl-layout__header ${s.header}`} ref={node => (this.root = node)}>
         <div className={`mdl-layout__header-row ${s.row}`}>
-          <Link className={`mdl-layout-title ${s.title}`} to="/">
-            <img src="small-logo.png" alt="Artwork Tattoo" width="300" />
+          <Link className={`mdl-layout-title ${s.logo}`} to="/">
+            <img src="small-logo.png" alt="Artwork Tattoo" />
           </Link>
           <div className="mdl-layout-spacer"></div>
           <Navigation />
