@@ -16,8 +16,8 @@
     "path": "/studio",
     "page": "./src/pages/studio"
   },
-  {
-    "path": "/tasks/:status(pending|completed)?",
-    "page": "./src/pages/home"
+   {
+    "path": "/galeria",
+    "page": "./src/pages/gallery"
   }
 ]

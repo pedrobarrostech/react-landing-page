@@ -1,5 +1,7 @@
 .row {
   padding: 40px;
+  width:80%;
+  margin: auto;
 }
 
 .title {
@@ -15,6 +17,14 @@
 
   .row {
     padding: 0 16px;
+  }
+
+}
+
+@media screen and (max-device-width: 640px) and (max-width: 640px) {
+
+  .row {
+    width:100%;
   }
 
 }

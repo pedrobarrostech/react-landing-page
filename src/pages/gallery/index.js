@@ -1,8 +1,8 @@
 import React from 'react';
 import Layout from '../../components/Layout/LayoutComponent';
-import s from './studio.css';
+import s from './gallery.css';
 
-class StudioPage extends React.Component {
+class GalleryPage extends React.Component {
 
   componentDidMount() {
     document.title = 'Artwork Tattoo - Studio';
@@ -11,7 +11,7 @@ class StudioPage extends React.Component {
   render() {
     return (
       <Layout className={s.content}>
-        <h1>Studio</h1>
+        <h1>Galeria</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Nam molestie, tellus et condimentum molestie, quam turpis porta dui,
@@ -42,4 +42,4 @@ class StudioPage extends React.Component {
 
 }
 
-export default StudioPage;
+export default GalleryPage;
