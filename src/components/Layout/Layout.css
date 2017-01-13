@@ -2,11 +2,11 @@
   margin: 0 auto;
   max-width: 1000px;
   width: 100%;
-  
 }
 
 body{
   background-color:#333;
   color:#eee;
   font-family: 'Roboto';
+  overflow-y: hidden !important;
 }

@@ -12,6 +12,7 @@ function Footer() {
               <img src="small-logo.png" alt="Artwork Tattoo" />
             </Link>
             <ul className="mdl-mega-footer__link-list">
+              <li><Link to="/">Home</Link></li>
               <li><Link to="/">Studio</Link></li>
               <li><Link to="/">Galeria</Link></li>
               <li><Link to="/">Contato</Link></li>
